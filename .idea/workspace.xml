@@ -2,11 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baefab57-f3af-4bbd-b8c2-9fcec33e2e63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PanelController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/bootstrap-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fontiran.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/eot/IRANSansWeb(FaNum).eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/eot/IRANSansWeb(FaNum)_Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/eot/IRANSansWeb(FaNum)_Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/eot/IRANSansWeb(FaNum)_Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/eot/IRANSansWeb(FaNum)_Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/ttf/IRANSansWeb(FaNum).ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/ttf/IRANSansWeb(FaNum)_Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/ttf/IRANSansWeb(FaNum)_Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff/IRANSansWeb(FaNum).woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff/IRANSansWeb(FaNum)_Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff/IRANSansWeb(FaNum)_Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff/IRANSansWeb(FaNum)_Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff/IRANSansWeb(FaNum)_Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff/IRANSansWeb(FaNum)_UltraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff2/IRANSansWeb(FaNum).woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff2/IRANSansWeb(FaNum)_Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff2/IRANSansWeb(FaNum)_Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff2/IRANSansWeb(FaNum)_Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/fonts/woff2/IRANSansWeb(FaNum)_UltraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/files/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/Admin/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_18_200914_create_courses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_18_200914_create_courses_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_18_200929_create_episodes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_18_200929_create_episodes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +165,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/sass/files/fonts" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/sass/files" />
+      <recent name="$PROJECT_DIR$/resources/sass/files/fonts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -153,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578857835705</updated>
       <workItem from="1578857837317" duration="790000" />
-      <workItem from="1579376715539" duration="2406000" />
+      <workItem from="1579376715539" duration="5930000" />
     </task>
     <servers />
   </component>
@@ -168,6 +219,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Composer/0.0.1440.900@0.0.1440.900" timestamp="1578858018152" />
+    <state x="379" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579873065377">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="379" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1579873065377" />
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1579873021748">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1579873021748" />
+    <state x="305" y="235" key="EditFileWatcherDialog" timestamp="1579872094777">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="305" y="235" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1579872094777" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578858021904">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -184,5 +247,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578858021904" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1579872060672">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579872060672" />
   </component>
 </project>
