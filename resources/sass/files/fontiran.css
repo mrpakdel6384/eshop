@@ -76,3 +76,6 @@ This set of fonts are used in this project under the license: (.....)
 		 url('fonts/woff/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
 		 url('fonts/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
 }
+*{
+    font-family: IRANSans;
+}

@@ -39,9 +39,9 @@ This set of fonts are used in this project under the license: (.....)
 	font-style: normal;
 	font-weight: 900;
 	src: url("/fonts/IRANSansWeb(FaNum)_Black.eot?b6c45d92f5517961190cd955b4c1e4b7");
-	src: url("/fonts/IRANSansWeb(FaNum)_Black.eot?b6c45d92f5517961190cd955b4c1e4b7"?#iefix) format('embedded-opentype'),
-		 url("/fonts/IRANSansWeb(FaNum)_Black.woff?bea60ea788538ed6b635ad0c519fb0b8") format('woff'),
-		 url("/fonts/IRANSansWeb(FaNum)_Black.woff2?24f304ff5075d348a40cdbcddff6a3d3") format('woff2'),
+	src: url("/fonts/IRANSansWeb(FaNum)_Black.eot?b6c45d92f5517961190cd955b4c1e4b7"?#iefix) format('embedded-opentype'),  
+		 url("/fonts/IRANSansWeb(FaNum)_Black.woff?bea60ea788538ed6b635ad0c519fb0b8") format('woff'),  
+		 url("/fonts/IRANSansWeb(FaNum)_Black.woff2?24f304ff5075d348a40cdbcddff6a3d3") format('woff2'),  
 		 url("/fonts/IRANSansWeb(FaNum)_Black.ttf?20f2dc0a09e36bed1b999d5236ec4014") format('truetype');
 }
 @font-face {
@@ -49,9 +49,9 @@ This set of fonts are used in this project under the license: (.....)
 	font-style: normal;
 	font-weight: bold;
 	src: url("/fonts/IRANSansWeb(FaNum)_Bold.eot?4abe296380edacb9f146cd778a94f43d");
-	src: url("/fonts/IRANSansWeb(FaNum)_Bold.eot?4abe296380edacb9f146cd778a94f43d"?#iefix) format('embedded-opentype'),
-		 url("/fonts/IRANSansWeb(FaNum)_Bold.woff2?ceaf6d89af9fb96d0466b26d6f1c022a") format('woff2'),
-		 url("/fonts/IRANSansWeb(FaNum)_Bold.woff?753b3827c415580e864a545d1a860a5a") format('woff'),
+	src: url("/fonts/IRANSansWeb(FaNum)_Bold.eot?4abe296380edacb9f146cd778a94f43d"?#iefix) format('embedded-opentype'),  
+		 url("/fonts/IRANSansWeb(FaNum)_Bold.woff2?ceaf6d89af9fb96d0466b26d6f1c022a") format('woff2'),  
+		 url("/fonts/IRANSansWeb(FaNum)_Bold.woff?753b3827c415580e864a545d1a860a5a") format('woff'),  
 		 url("/fonts/IRANSansWeb(FaNum)_Bold.ttf?ff320f78af3a0fd44f2ee2993559fa9f") format('truetype');
 }
 @font-face {
@@ -59,9 +59,9 @@ This set of fonts are used in this project under the license: (.....)
 	font-style: normal;
 	font-weight: 500;
 	src: url("/fonts/IRANSansWeb(FaNum)_Medium.eot?30ecec094f809f90a3e4c121115cc8ca");
-	src: url("/fonts/IRANSansWeb(FaNum)_Medium.eot?30ecec094f809f90a3e4c121115cc8ca"?#iefix) format('embedded-opentype'),
-		 url("/fonts/IRANSansWeb(FaNum)_Medium.woff2?62528a12d06f0745f8a43c0fd1318862") format('woff2'),
-		 url("/fonts/IRANSansWeb(FaNum)_Medium.woff?fe1913144aa13ac4b31777a96230fed1") format('woff'),
+	src: url("/fonts/IRANSansWeb(FaNum)_Medium.eot?30ecec094f809f90a3e4c121115cc8ca"?#iefix) format('embedded-opentype'),  
+		 url("/fonts/IRANSansWeb(FaNum)_Medium.woff2?62528a12d06f0745f8a43c0fd1318862") format('woff2'),  
+		 url("/fonts/IRANSansWeb(FaNum)_Medium.woff?fe1913144aa13ac4b31777a96230fed1") format('woff'),  
 		 url("/fonts/IRANSansWeb(FaNum)_Medium.ttf?8789622647008ae1b00f6a890b49916e") format('truetype');
 }
 @font-face {
@@ -69,9 +69,9 @@ This set of fonts are used in this project under the license: (.....)
 	font-style: normal;
 	font-weight: 300;
 	src: url("/fonts/IRANSansWeb(FaNum)_Light.eot?ad395cc9a045cb4059bed55605a611e6");
-	src: url("/fonts/IRANSansWeb(FaNum)_Light.eot?ad395cc9a045cb4059bed55605a611e6"?#iefix) format('embedded-opentype'),
-		 url("/fonts/IRANSansWeb(FaNum)_Light.woff2?3f707510b31097b91baee0aaa50a57ce") format('woff2'),
-		 url("/fonts/IRANSansWeb(FaNum)_Light.woff?25bd95ce239f04e9457b5cf1c7dac593") format('woff'),
+	src: url("/fonts/IRANSansWeb(FaNum)_Light.eot?ad395cc9a045cb4059bed55605a611e6"?#iefix) format('embedded-opentype'),  
+		 url("/fonts/IRANSansWeb(FaNum)_Light.woff2?3f707510b31097b91baee0aaa50a57ce") format('woff2'),  
+		 url("/fonts/IRANSansWeb(FaNum)_Light.woff?25bd95ce239f04e9457b5cf1c7dac593") format('woff'),  
 		 url("/fonts/IRANSansWeb(FaNum)_Light.ttf?bd26f02a2febca2229ccf2c4d37ee3f7") format('truetype');
 }
 @font-face {
@@ -79,9 +79,9 @@ This set of fonts are used in this project under the license: (.....)
 	font-style: normal;
 	font-weight: 200;
 	src: url("/fonts/IRANSansWeb(FaNum)_UltraLight.eot?bbb57c7053ed930508b718bc70802932");
-	src: url("/fonts/IRANSansWeb(FaNum)_UltraLight.eot?bbb57c7053ed930508b718bc70802932"?#iefix) format('embedded-opentype'),
-		 url("/fonts/IRANSansWeb(FaNum)_UltraLight.woff2?6e57754a4baf5c1bcf358a9270049b3b") format('woff2'),
-		 url("/fonts/IRANSansWeb(FaNum)_UltraLight.woff?658b85640048a3b6d9893cbb16a44cfb") format('woff'),
+	src: url("/fonts/IRANSansWeb(FaNum)_UltraLight.eot?bbb57c7053ed930508b718bc70802932"?#iefix) format('embedded-opentype'),  
+		 url("/fonts/IRANSansWeb(FaNum)_UltraLight.woff2?6e57754a4baf5c1bcf358a9270049b3b") format('woff2'),  
+		 url("/fonts/IRANSansWeb(FaNum)_UltraLight.woff?658b85640048a3b6d9893cbb16a44cfb") format('woff'),  
 		 url("/fonts/IRANSansWeb(FaNum)_UltraLight.ttf?cb2ad2322140b8c86f1acb43710f9ad1") format('truetype');
 }
 @font-face {
@@ -89,10 +89,13 @@ This set of fonts are used in this project under the license: (.....)
 	font-style: normal;
 	font-weight: normal;
 	src: url("/fonts/IRANSansWeb(FaNum).eot?94c311fd48c9362dea340aa3a29e3567");
-	src: url("/fonts/IRANSansWeb(FaNum).eot?94c311fd48c9362dea340aa3a29e3567"?#iefix) format('embedded-opentype'),
-		 url("/fonts/IRANSansWeb(FaNum).woff2?eb5adaac0d814e1e8e5cbd75efb9db3e") format('woff2'),
-		 url("/fonts/IRANSansWeb(FaNum).woff?bd6f69a8db87710b2f3fcd6ef75bd3e2") format('woff'),
+	src: url("/fonts/IRANSansWeb(FaNum).eot?94c311fd48c9362dea340aa3a29e3567"?#iefix) format('embedded-opentype'),  
+		 url("/fonts/IRANSansWeb(FaNum).woff2?eb5adaac0d814e1e8e5cbd75efb9db3e") format('woff2'),  
+		 url("/fonts/IRANSansWeb(FaNum).woff?bd6f69a8db87710b2f3fcd6ef75bd3e2") format('woff'),  
 		 url("/fonts/IRANSansWeb(FaNum).ttf?e9908f05e5771638e40913309b784a17") format('truetype');
+}
+*{
+    font-family: IRANSans;
 }
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
