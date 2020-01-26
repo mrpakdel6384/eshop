@@ -4,7 +4,7 @@
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
         <div class="page-header head-section">
             <h2>ایجاد مقالات</h2>
-            <a href="{{route('articles.all')}}" class="btn btn-primary">آرشیو</a>
+            <a href="{{route('articles.index')}}" class="btn btn-primary">آرشیو</a>
         </div>
         <form action="{{route('articles.store')}}" method="post" >
             {{csrf_field()}}
