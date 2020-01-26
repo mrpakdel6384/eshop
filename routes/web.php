@@ -13,6 +13,6 @@
 
 Route::namespace('Admin')->prefix('admin')->group(function(){
     Route::get('/panel' , 'PanelController@index');
-    Route::resource('article', 'ArticleController');
+    Route::resource('/articles', 'ArticleController');
 });
 

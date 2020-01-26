@@ -110,4 +110,10 @@ body {
   border-radius: 50%;
 }
 
+.head-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*# sourceMappingURL=admin.css.map */
