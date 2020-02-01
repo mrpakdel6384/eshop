@@ -42,8 +42,8 @@ class ArticleController extends AdminController
     {
         auth()->loginUsingId(1);
         $images = $this->uploadImages($request->file('images'),'articles');
-        auth()->user()->article()->create(array_merge(['images'=>$images],$request->all()));
-        return redirect(back());
+        auth()->user()->article()->create(array_merge($request->all(),['images'=>$images]));
+        return redirect()->back();
 
     }
 

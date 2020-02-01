@@ -25,23 +25,29 @@
             <div class="form-group">
                 <div class="col-sm-12">
                     <label class="control-label">متن مقاله</label>
-                    <textarea type="text" name="body" id="body" class="form-control" placeholder=" متن را وارد کنید " >{{$article->body}}</textarea>
+                    <textarea type="text" rows="5" name="body" id="body" class="form-control" placeholder=" متن را وارد کنید " >{{$article->body}}</textarea>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-12">
-                    @foreach($article->images as $image)
-                    <input type="radio" name="images" id="images" class="form-control" >
-                        <img src="{{$image}}" alt="">
-                    @endforeach
+                        @foreach($article->images['images'] as $key => $image)
+                        <div class="col-sm-2">
+                            <label for="images" class="control-label">
+                                {{$key}}
+                                <input type="radio" name="images" value="{{$image}}" {{$article->images['thumb'] == $image ? "checked":""}} id="images" class="form-control" >
+                                <img src="{{$image}}" alt="" width="100%" >
+                            </label>
+                        </div>
+                        @endforeach
                 </div>
+            </div>
+            <div class="from-group">
                 <div class="col-sm-12">
                     <input type="file" name="images" id="images" class="form-control" >
                 </div>
-
             </div>
             <div class="form-group">
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <input type="text" name="tags" id="tags" class="form-control" placeholder="تگ ها" value="{{$article->tags}}" >
                 </div>
             </div>
