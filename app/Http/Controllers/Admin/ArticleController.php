@@ -3,10 +3,12 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Article;
+use App\Http\Requests\ArticleRequest;
+use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class ArticleController extends Controller
+class ArticleController extends AdminController
 {
     /**
      * Display a listing of the resource.
@@ -26,6 +28,7 @@ class ArticleController extends Controller
      */
     public function create()
     {
+
         return view('Admin.articles.create');
     }
 
@@ -35,9 +38,13 @@ class ArticleController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ArticleRequest $request)
     {
-        //
+        auth()->loginUsingId(1);
+        $images = $this->uploadImages($request->file('images'),'articles');
+        auth()->user()->article()->create(array_merge(['images'=>$images],$request->all()));
+        return redirect(back());
+
     }
 
     /**
@@ -59,7 +66,7 @@ class ArticleController extends Controller
      */
     public function edit(Article $article)
     {
-        //
+        return view('Admin.articles.edit',compact('article'));
     }
 
     /**

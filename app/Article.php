@@ -9,6 +9,8 @@ class Article extends Model
 {
 
     use Sluggable;
+
+    protected $guarded = [];
     public function path(){
         return "/article/$this->slug";
     }

@@ -23,12 +23,12 @@
                     <td>{{$article->commentCount}}</td>
                     <td>{{$article->viewCount}}</td>
                     <td>
-                        <form action="{{route('article.destroy',['id'=>$article->id])}}" method="post">
+                        <form action="{{route('articles.destroy',['id'=>$article->id])}}" method="post">
                             {{method_field('delete')}}
                             {{csrf_field()}}
                             <div class="btn-group btn-group-xs">
-                                <a href="{{route('article.edit' , ['id'=>$article->id])}}">ویرایش</a>
-                                <button type="submit" class="btn btn-danger" >حذف</button>
+                                <a class="btn btn-success" href="{{route('articles.edit' , ['id'=>$article->id])}}"><i class="fa fa-edit"></i></a>
+                                <button type="submit" class="btn btn-danger" ><i class="fa fa-trash"></i></button>
                             </div>
                         </form>
                     </td>
