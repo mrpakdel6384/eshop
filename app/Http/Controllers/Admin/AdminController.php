@@ -37,4 +37,22 @@ class AdminController extends Controller
 
         return $images;
     }
+
+
+    protected function setCourseTime($episode){
+        $course = $episode->course;
+        $course->time = $this->getCourseTime($course->episodes->pluck('time'));
+        $course->save();
+    }
+
+    protected function getCourseTime($times)
+    {
+        $timestamp = Carbon::parse('00:00:00');
+        foreach($times as $time){
+            $t = strlen($time) == 5 ? strtotime('00:'.$time) : strtotime($time);
+            $timestamp->addSecond($t);
+        }
+
+        return $timestamp->format('H:i:s');
+    }
 }

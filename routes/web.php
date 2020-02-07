@@ -13,6 +13,9 @@
 
 Route::namespace('Admin')->prefix('admin')->group(function(){
     Route::get('/panel' , 'PanelController@index');
+    Route::post('/panel/upload-image' , 'PanelController@uploadImageSubject');
     Route::resource('/articles', 'ArticleController');
+    Route::resource('/courses', 'CourseController');
+    Route::resource('/episodes','EpisodeController');
 });
 

@@ -14,7 +14,15 @@
     <title>فرشگاه اینترنتی آرون شاپ</title>
 
     <!-- ADMIN  CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-rtl.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="/fontawesome/css/all.css" rel="stylesheet">
+    <link href="/css/fontiran.css" rel="stylesheet">
+    <link href="/css/sweetalert2.min.css" rel="stylesheet">
     <link href="/css/admin.css" rel="stylesheet">
+
+
 
     <![endif]-->
 </head>

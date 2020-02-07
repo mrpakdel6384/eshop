@@ -17,7 +17,7 @@ class ArticleController extends AdminController
      */
     public function index()
     {
-        $articles = Article::latest()->paginate(0);
+        $articles = Article::latest()->paginate(20);
         return view('Admin.articles.all', compact('articles'));
     }
 
@@ -66,6 +66,7 @@ class ArticleController extends AdminController
      */
     public function edit(Article $article)
     {
+
         return view('Admin.articles.edit',compact('article'));
     }
 
@@ -76,9 +77,20 @@ class ArticleController extends AdminController
      * @param  \App\Article  $article
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Article $article)
+    public function update(ArticleRequest $request, Article $article)
     {
-        //
+       $file = $request->file('images');
+       $inputs = $request->all();
+       if($file){
+           $inputs['images'] = $this->uploadImages($request->file('images'),'articles');
+       }else{
+           $inputs['images'] = $article->images;
+           $inputs['images']['thumb'] = $inputs['imagesThumb'];
+
+       }
+       unset($inputs['imagesThumb']);
+       $article->update($inputs);
+       return redirect()->back();
     }
 
     /**

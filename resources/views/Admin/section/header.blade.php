@@ -33,7 +33,7 @@
             <ul class="nav nav-sidebar">
                 <li class="active"><a href="/admin/panel">پنل اصلی</a></li>
                 <li><a href="/admin/articles">مقالات</a></li>
-                <li><a href="/admin/course">دوره ها</a></li>
+                <li><a href="/admin/courses">دوره ها</a></li>
             </ul>
             <ul class="nav nav-sidebar">
                 <li><a href="">کاربران<span class="badge">0</span></a></li>

@@ -23,6 +23,15 @@ class ArticleRequest extends FormRequest
      */
     public function rules()
     {
+        if($this->method() == 'POST'){
+            return [
+                'title'=> 'required|max:250',
+                'description'=>'required',
+                'body'=>'required',
+                'images'=>'required|mimes:jpeg,png,bmp.gif',
+                'tags'=>'required',
+            ];
+        }
         return [
             'title'=> 'required|max:250',
             'description'=>'required',

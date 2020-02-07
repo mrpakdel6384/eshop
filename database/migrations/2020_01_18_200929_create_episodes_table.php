@@ -21,14 +21,13 @@ class CreateEpisodesTable extends Migration
             $table->string('slug');
             $table->string('type' , 10);
             $table->text('description');
-            $table->text('body');
             $table->string('videoUrl');
             $table->string('tags');
+            $table->integer('number');
             $table->string('time')->default('00:00:00');
             $table->integer('viewCount')->default(0);
             $table->integer('commentCount')->default(0);
             $table->integer('downloadCount')->default(0);
-            $table->integer('number');
             $table->timestamps();
         });
     }
