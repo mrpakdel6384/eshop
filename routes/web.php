@@ -17,5 +17,10 @@ Route::namespace('Admin')->prefix('admin')->group(function(){
     Route::resource('/articles', 'ArticleController');
     Route::resource('/courses', 'CourseController');
     Route::resource('/episodes','EpisodeController');
+
+    Route::group(['prefix'=>'users'],function(){
+        Route::get('/','UserController@index');
+        Route::delete('/{user}/destroy','UserController@destroy')->name('users.destroy');
+    });
 });
 
